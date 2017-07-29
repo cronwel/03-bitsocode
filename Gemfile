@@ -13,6 +13,8 @@ gem 'haml'
 gem 'bootstrap-sass'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 gem 'simple_form', '~> 3.5'
+gem 'cocoon'
+gem 'devise'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'

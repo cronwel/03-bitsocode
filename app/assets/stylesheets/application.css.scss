@@ -24,10 +24,10 @@
 	box-shadow: rgba(0, 0, 0, 0.09) 0 2px 0;
 }
 
-$red: #DB6161;
+$green: #392680;
 
 body {
-	background: rgb(235, 238, 243);
+	background: rgb(200,200,255);
 }
 
 .main_content {
@@ -54,13 +54,13 @@ body {
 		font-weight: bold;
 		font-size: 25px;
 		a {
-			color: $red;
+			color: $green;
 		}
 	}
 }
 
 .recipe {
-	background: white;
+	background:  rgb(200,200,255);
 	border-radius: 5px;
 	margin-bottom: 40px;
 	@include box-shadow;
@@ -86,7 +86,7 @@ body {
 		font-weight: normal;
 		line-height: 1.5;
 		a {
-			color: $red;
+			color: $green;
 		}
 	}
 }
@@ -113,7 +113,7 @@ body {
 	h1 {
 		font-size: 36px;
 		font-weight: normal;
-		color: $red;
+		color: $green;
 	}
 	.description {
 		color: #8A8A8A;
